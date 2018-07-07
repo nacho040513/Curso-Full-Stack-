@@ -1,0 +1,43 @@
+.cancha{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;  
+    position: absolute;
+    
+}
+img{
+ width: 100%;
+ right: 500px;
+}
+body{
+    background-color: green;
+}
+
+.balon {
+    width: 120px;
+    height: 120px;
+    background: red;
+    position :relative;
+    border-radius: 100%;
+    -webkit-animation: mymove 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 2s infinite;
+}
+
+@-webkit-keyframes mymove {
+    0%   {top: 650px; left: 800px; }
+    20%  {top: 450px; left: 450px; }
+    40%  {top: 350px; left: 350px; }
+    60%  {top: 200px; left: 300px; width: 80px ;height: 80px; }
+    80%  {top: 150px; left: 300px; }
+    100% {top: 100px; left: 780px; width: 20px ;height: 20px; }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: 650px; left: 800px; }
+    20%  {top: 450px; left: 450px; }
+    40%  {top: 350px; left: 350px; }
+    60%  {top: 200px; left: 300px; width: 80px ;height: 80px; }
+    80%  {top: 150px; left: 300px; }
+    100% {top: 100px; left: 780px; width: 20px ;height: 20px;}
+}
