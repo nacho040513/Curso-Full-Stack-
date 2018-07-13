@@ -1,0 +1,100 @@
+body {
+  background-image: url(../imagenes/fondo.jpg);
+}
+
+header {
+  background-color: #030F21;
+  font-size: arial;
+}
+
+#t {
+  text-align: center;
+  color: #53647D;
+}
+
+#nombre {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(206, 208, 212);
+}
+
+.avatar {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  left: 40%;
+}
+
+.cuerpo {
+  background-color: #132540;
+  height: 520px;
+  width: 100%;
+}
+
+.perfil {
+  margin: 0 auto;
+  height: 150px;
+  width: 80%;
+  background-color: #2b3d58;
+  text-align: center;
+  margin: 0% 10% 1%;
+}
+.p1{
+  text-align: justify;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border: red 50px none;
+  margin: 20px;
+}
+.cuerpo1 {
+  background-color: #23514F;
+  width: 48%;
+  height: 210px;
+  float: left;
+  margin: 0% 10px 10px;
+}
+
+.cuerpo2 {
+  background-color: #0D3B39;
+  width: 48%;
+  height: 210px;
+  float: right;
+  margin: 0% 10px 10px;
+}
+
+.imagen {
+  width: 20%;
+  align-content: center;
+}
+
+ul {
+  color: white;
+}
+
+[data-vegetable= toma] {
+  background-color: #5D7F7E;
+  font-size: 20px;
+}
+[data-vegetable=tomates] {
+  background-color: #51c011;
+  font-size: 20px;
+}
+
+.rede{
+text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:focus, a:active {
+  font-size: 20px;
+  color: white;
+  cursor: default;
+  text-decoration: none;
+}
+
+
+/*# sourceMappingURL=estilo.css.map */

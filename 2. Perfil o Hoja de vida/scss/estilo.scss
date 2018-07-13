@@ -1,0 +1,56 @@
+$fondo-imagen:url(../imagenes/fondo.jpg);
+$fondo-header: #030F21 ;$tipo-letra:arial;
+$color-t:#53647D;
+$textoCentrado:center;$color-nombre:snow; $letra-nombre:20px;
+$posicionAvatar:relative;
+body{
+    background-image: $fondo-imagen;
+}
+header{
+    background-color: $fondo-header;
+    font-size: $tipo-letra;
+}
+#t{text-align:$textoCentrado; 
+    color:$color-t 
+}
+#nombre{text-align: $textoCentrado;
+    font-size: $letra-nombre;
+    color:$color-nombre
+}
+.avatar{position: $posicionAvatar; 
+    height: 50%;
+    width: 100%;
+    left: 40%;}
+    .cuerpo{background-color: rgb(19, 37, 64);
+     height: 500px;
+     width: 100%}
+
+     .perfil{
+     margin: 0 auto;    
+     height: 200px;
+     width: 80%;
+     background-color: rgb(43, 61, 88);
+     text-align: center;
+    }
+    .cuerpo1{background-color:#23514F;
+    width: 50%;
+    height: 200px;
+    float: left;}
+    .cuerpo2{background-color:#0D3B39;
+    width: 50%;
+    height: 200px;
+    float: right;}
+.imagen{ width: 20%;
+    align-content: center}
+ul{color: white}
+[data-vegetable]{ background-color: rgb(81, 192, 17);
+    font-size: 20px}
+[data-quality~="dd"]{ background-color: turquoise;
+    font-size: 10px}
+a{    text-decoration: none;
+    color: white}
+a:hover,a:focus,a:active{font-size:20px;
+    color:red;
+    cursor: default;
+    text-decoration: none;
+}
